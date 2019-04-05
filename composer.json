@@ -11,7 +11,15 @@
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "php": ">=7.1",
+        "audi2014/repo-query": "^1.0",
+        "audi2014/crypto": "^1.0",
+        "audi2014/simple-fb-api": "^1.2",
+        "psr/container": "^1.0",
+        "audi2014/schema": "^1.0",
+        "audi2014/entity": "^1.0"
     },
     "autoload":{
         "psr-4": { "Audi2014\\Auth\\": "src/" }
