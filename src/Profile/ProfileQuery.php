@@ -14,6 +14,8 @@ use Audi2014\RequestQuery\AbstractRequestQueryPage;
 class ProfileQuery extends AbstractRequestQueryPage {
 
     protected $or = false;
+    public $emailEmail;
+    public $fbEmail;
 
     /**
      * @param bool $or
